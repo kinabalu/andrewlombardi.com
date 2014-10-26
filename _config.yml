@@ -1,0 +1,29 @@
+# Site settings
+title: Andrew Lombardi Photography and Writing
+email: andrew@mysticcoders.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://andrewlombardi.com" # the base hostname & protocol for your site
+twitter_username: kinabalu
+github_username:  kinabalu
+
+excerpt_separator: <!--more-->
+# pagination
+paginate: 3
+paginate_path: "writings/page:num"
+
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: /writings/:title
+# url: http://mysticcoders.com
+disqus:
+  config:
+    - label: disqus_shortname
+      value: 'andrewlombardi'
+googleanalytics:
+  account: UA-254925-10

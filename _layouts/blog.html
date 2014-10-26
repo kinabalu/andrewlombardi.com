@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<div id="content-wrapper">
+  <section class="pages clearfix">
+
+    <!-- Section Title -->
+    <div id="section-title">
+      <h1>Writings</h1>
+    </div>
+    <!-- Section Title End -->
+
+      {{ content }}
+
+      {% if paginator %}
+      <!-- Pagination -->
+      <div class="pagination">
+        {% if paginator.next_page %}
+          {% if paginator.next_page == 1 %}
+            <div class="nav-previous">
+              <a href="/writings" >&laquo; Older Entries</a>
+            </div>
+          {% else %}
+            <div class="nav-previous">
+              <a href="/writings/page{{ paginator.next_page }}" >&laquo; Older Entries</a>
+            </div>
+          {% endif %}
+          {% if paginator.previous_page %}
+            {% if paginator.previous_page == 1 %}
+              <div class="nav-next">
+                  <a href="/writings" >&raquo; Newer Entries</a>
+              </div>
+            {% else %}
+              <div class="nav-next">
+                  <a href="/writings/page{{ paginator.previous_page }}" >&raquo; Newer Entries</a>
+              </div>
+            {% endif %}
+          {% else %}
+            <div class="nav-next">Newer Entries</div>
+          {% endif %}
+        {% endif %}
+      </div>
+      <!-- Pagination End -->      
+      {% endif %}
+
+</section>
+</div>

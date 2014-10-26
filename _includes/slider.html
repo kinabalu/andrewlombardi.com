@@ -1,0 +1,16 @@
+<!-- Epic Slider -->
+<section class="slider-full-width slider-homepage clearfix">
+  <div id="epicSlider1" class="epic-slider slider-wrapper">
+    <ul id="slides">
+      {% for slide in site.data.slides %}
+      <li data-image="{{ slide.image }}">
+        <div class="es-caption" style="" data-caption="{{ slide.caption }}" data-caption-position="{{ slide.position }}" data-caption-width="{{ slide.width }}">
+          <p>
+            {{ slide.desc }}
+          </p>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
