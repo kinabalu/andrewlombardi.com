@@ -21,30 +21,12 @@
           <li class="widget widget_recent_entries">
             <h4 class="widget-title">Recent Posts</h4>
             <ul>
+              {% for item in site.data.recentposts %}
               <li>
-                <a href="blog/a-vimeo-post.html" title="A Vimeo Post">A Vimeo Post</a>
-                <span class="post-date">October 24, 2013</span>
+                <a href="{{ item.link }}" title="{{ item.title }}">{{ item.title }}</a>
+                <span class="post-date">{{ item.date }}</span>
               </li>
-              <li>
-                <a href="blog/photo-post.html" title="Photo Post">Photo Post</a>
-                <span class="post-date">October 24, 2013</span>
-              </li>
-              <li>
-                <a href="blog/a-youtube-post.html" title="A YouTube Post">A YouTube Post</a>
-                <span class="post-date">October 24, 2013</span>
-              </li>
-              <li>
-                <a href="blog/paginated-post.html" title="Paginated Post">Paginated Post</a>
-                <span class="post-date">October 23, 2013</span>
-              </li>
-              <li>
-                <a href="blog/a-sticky-post.html" title="A Sticky Post">A Sticky Post</a>
-                <span class="post-date">October 20, 2013</span>
-              </li>
-              <li>
-                <a href="blog/a-regular-post.html" title="A Regular Post">A Regular Post</a>
-                <span class="post-date">October 20, 2013</span>
-              </li>
+              {% endfor %}
             </ul>
           </li>
         </ul>
