@@ -7,6 +7,9 @@
         <div class="es-caption" style="" data-caption="{{ slide.caption }}" data-caption-position="{{ slide.position }}" data-caption-width="{{ slide.width }}">
           <p>
             {{ slide.desc }}
+            {% if slide.link %}
+            <a href="{{ slide.link }}" class="submit submitDarkGray" style="margin-bottom:0;" title="{{ slide.link_desc }}">{{ slide.link_desc }}</a>
+            {% endif %}
           </p>
         </div>
       </li>
