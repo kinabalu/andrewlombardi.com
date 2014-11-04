@@ -6,7 +6,7 @@
   section_id: about
   title: About Andrew
 - name: Portfolio
-  path: http://portfolio.andrew-lombardi.com
+  path: http://portfolio.andrewlombardi.com
   section_id: portfolio
 - name: Writings
   path: /writings
