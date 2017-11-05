@@ -9,7 +9,7 @@ var udt_global_vars = {
 	/* Scroll to Top Scroll Speed */
 	// Possible Values: "slow", "normal", "fast".
 	"scrollToTopSpeed":"normal",
-	
+
 	/* FlexSlider Settings */
 	// Possible values: true, false.
 	"flexslider_autoplay":true,
@@ -30,8 +30,8 @@ var udt_global_vars = {
 	// Value between 1.0 and 1.5
 	"thumb_rollover_zoom_factor":"1.5",
 	// URL to rollover graphic
-	"rollover_graphic":"http://demo.udthemes.com/raw/wordpress/white/wp-content/uploads/udf_foundry/images/rollover_graphic.png",
-	
+	// "rollover_graphic":"http://demo.udthemes.com/raw/wordpress/white/wp-content/uploads/udf_foundry/images/rollover_graphic.png",
+
 	/* Frontpage Epic Slider Settings */
 	// Possible values: true, false.
 	"frontpage_slider_overlay_pattern_on_off":false,
@@ -92,5 +92,5 @@ var udt_global_vars = {
 	// Possible values: true, false.
 	"map_controls":true,
 	// URL to custom map marker graphic
-	"map_image_marker":"http://demo.udthemes.com/raw/wordpress/white/wp-content/themes/raw/z_usr/images/map_marker.png"
+	// "map_image_marker":"http://demo.udthemes.com/raw/wordpress/white/wp-content/themes/raw/z_usr/images/map_marker.png"
 };

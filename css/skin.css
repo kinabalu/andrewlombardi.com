@@ -1,10 +1,10 @@
-.contactForm .loading-animation { background-image:url(http://demo.udthemes.com/raw/wordpress/white/wp-content/themes/raw/z_usr/images/contact_loading.gif); }
+/*.contactForm .loading-animation { background-image:url(http://demo.udthemes.com/raw/wordpress/white/wp-content/themes/raw/z_usr/images/contact_loading.gif); }*/
 
-.epic-slider { background:url(http://demo.udthemes.com/raw/wordpress/white/wp-content/themes/raw/z_usr/images/epic_slider_loading_gif.gif) no-repeat center center; }
+/*.epic-slider { background:url(http://demo.udthemes.com/raw/wordpress/white/wp-content/themes/raw/z_usr/images/epic_slider_loading_gif.gif) no-repeat center center; }*/
 
  .epic-slider #slides li { background-color:#222222; }
 
-.epic-slider #slides li .es-background .es-overlay { background:url(http://demo.udthemes.com/raw/wordpress/white/wp-content/themes/raw/z_usr/images/epic_slider_overlay_pattern.png) repeat 0 0; }
+/*.epic-slider #slides li .es-background .es-overlay { background:url(http://demo.udthemes.com/raw/wordpress/white/wp-content/themes/raw/z_usr/images/epic_slider_overlay_pattern.png) repeat 0 0; }*/
 
 .epic-slider #es-play:hover, .epic-slider #es-next:hover, .epic-slider #es-prev:hover, .epic-slider .es-fullscreen:hover, .epic-slider #es-control-nav .es-fullscreen:hover, .epic-slider #es-progress-button,
 .flex-direction-nav li a:hover {
@@ -123,7 +123,7 @@ section#comments h2#comments-title, section#comments h3#reply-title {
 a { color:#FF2E2E; }
 a:hover { color:#FF2E2E; }
 
-aside.sidebar ul li h4.widget-title, aside.sidebar ul li h4.widget-title span { 
+aside.sidebar ul li h4.widget-title, aside.sidebar ul li h4.widget-title span {
 	color:#999999;
 }
 
@@ -270,8 +270,8 @@ blockquote.boxed-background, blockquote.striped span {
 	background-color:#dddddd;
 	color:#666666;
 }
-blockquote.elegant { background-image:url(http://demo.udthemes.com/raw/wordpress/white/wp-content/themes/raw/z_usr/images/blockquote_elegant.png); }
-blockquote.overlayed { background-image:url(http://demo.udthemes.com/raw/wordpress/white/wp-content/themes/raw/z_usr/images/blockquote_overlayed.png); }
+/*blockquote.elegant { background-image:url(http://demo.udthemes.com/raw/wordpress/white/wp-content/themes/raw/z_usr/images/blockquote_elegant.png); }*/
+/*blockquote.overlayed { background-image:url(http://demo.udthemes.com/raw/wordpress/white/wp-content/themes/raw/z_usr/images/blockquote_overlayed.png); }*/
 
 .caption.elegant, .caption.single-border, .caption.impact, .es-caption.elegant, .es-caption.single-border, .es-caption.impact {
 	color:#ffffff;
