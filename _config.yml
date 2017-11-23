@@ -28,3 +28,4 @@ disqus:
       value: 'andrewlombardi'
 googleanalytics:
   account: UA-254925-10
+plugins: [jekyll-paginate]
