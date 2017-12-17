@@ -10,7 +10,7 @@ author:
 author_login: kinabalu
 author_email: andrew@andrewlombardi.com
 author_url: http://www.andrewlombardi.com
-date: '2017-12-01 08:36:00 +0000'
+date: '2017-12-20 08:36:00 +0000'
 category: informational
 tags: [offline,technology,connected]
 comments: true
