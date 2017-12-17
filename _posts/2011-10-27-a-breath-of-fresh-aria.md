@@ -16,7 +16,7 @@ tags: [italy, story]
 comments: true
 ---
 
-![Woman on Motorcycle Photo](http://andrew-lombardi.com/wp-content/uploads/2011/10/3319269281_b59964da29.jpg)
+![Woman on Motorcycle Photo](/wp-content/uploads/2011/10/3319269281_b59964da29.jpg)
 
 We don't make it a habit of guessing the vehicle
 maker for motorcycles.  Our made-up game of guessing auto makers has

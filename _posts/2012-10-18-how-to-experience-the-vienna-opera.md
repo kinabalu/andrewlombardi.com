@@ -16,7 +16,7 @@ tags: [vienna, opera, travel, music]
 comments: true
 ---
 
-![Vienna Opera](http://andrewlombardi.com/wp-content/uploads/2012/10/286455_10151488435804741_739286178_o-e1350602310760.jpg)
+![Vienna Opera](/wp-content/uploads/2012/10/286455_10151488435804741_739286178_o-e1350602310760.jpg)
 
 How do you get to Carnegie Hall? Practice.
 

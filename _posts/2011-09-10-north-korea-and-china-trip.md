@@ -16,7 +16,7 @@ tags: [north korea, dprk, photography, beijing, china, pyongyang, travel]
 comments: true
 ---
 
-![][]
+![North Korea Child](http://farm7.static.flickr.com/6071/6125008232_0e05cf2e0b.jpg)
 
 A week ago I returned from a two-week trip to North Korea, and China.
 The trip to the DPRK was scheduled, highly structured, and fully planned
@@ -29,8 +29,6 @@ Here are the many galleries I'd love to share with you:
 
 DPRK - North Korea
 ------------------
-
-</p>
 
 -   [The Group][]
 -   [Pyongyang Fun Fair][]
@@ -48,20 +46,13 @@ DPRK - North Korea
 -   [Mass Games 2011][]
 -   [Various][]
 
-</p>
-
 Beijing, China
 --------------
-
-</p>
 
 -   [Lama Temple][]
 -   [Palaces, Tomb & Factory][]
 -   [The Wall][]
 
-</p>
-
-  []: http://farm7.static.flickr.com/6071/6125008232_0e05cf2e0b.jpg
   [The Group]: http://www.flickr.com/photos/kinabalu/sets/72157627484874747/
   [Pyongyang Fun Fair]: http://www.flickr.com/photos/kinabalu/sets/72157627488382713/
   [Mass Dance]: http://www.flickr.com/photos/kinabalu/sets/72157627612807228/

@@ -16,7 +16,7 @@ tags: [lakers, basketball, son, story]
 comments: true
 ---
 
-[![Laker Score](http://andrew-lombardi.com/wp-content/uploads/2012/11/Photo-Nov-18-23-30-10.jpg)](http://www.nba.com/games/20121118/HOULAL/gameinfo.html)
+[![Laker Score](/wp-content/uploads/2012/11/Photo-Nov-18-23-30-10.jpg)](http://www.nba.com/games/20121118/HOULAL/gameinfo.html)
 
 The smiles I saw tonight were of pure elation and joy. I felt it
 important for me to highlight our experience as I remember it.

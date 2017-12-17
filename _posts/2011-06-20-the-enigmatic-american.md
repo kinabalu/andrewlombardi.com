@@ -16,7 +16,7 @@ tags: [italy, travel]
 comments: true
 ---
 
-![Tuscany Holiday](http://andrew-lombardi.com/wp-content/uploads/2011/06/tuscany-holidays.jpg)
+![Tuscany Holiday](/wp-content/uploads/2011/06/tuscany-holidays.jpg)
 
 <small>Our flat in [Belmonte Chianti](http://www.tuscany-farmholiday.com/)</small>
 

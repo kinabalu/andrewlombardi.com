@@ -27,4 +27,4 @@ Would this be a good option for a blogger sick of the pain that can be caused by
 
 [pelican]: http://blog.notmyidea.org/pelican-a-simple-static-blog-generator-in-python.html
 [dropbox]: http://dropbox.com
-[pelican_image]: http://static.ddmcdn.com/gif/pelican-1.jpg
+[pelican_image]: /images/pelican-logo.png

@@ -16,9 +16,9 @@ tags: [learning, children]
 comments: true
 ---
 
-![Cursive Image](http://andrewlombardi.com/wp-content/uploads/2012/11/cursive.gif)
+![Cursive Image](/wp-content/uploads/2012/11/cursive.gif)
 
-  
+
 <small>Image from [Sunset Ridge Elementary School][]</small>
 
 This morning I read an [article][] at Yahoo about a handful of states --

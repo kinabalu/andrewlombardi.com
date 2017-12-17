@@ -16,7 +16,7 @@ tags: [sweden, stockholm, travel, photography]
 comments: true
 ---
 
-![Wallet](http://andrew-lombardi.com/wp-content/uploads/2011/10/2282037.jpg)
+![Wallet](/wp-content/uploads/2011/10/2282037.jpg)
 
 I spent all day shooting photos around Stockholm.
 

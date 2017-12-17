@@ -16,7 +16,7 @@ tags: [travel, photography, spiritual]
 comments: true
 ---
 
-![La Sagrada Familia](http://andrew-lombardi.com/wp-content/uploads/2011/10/IMG_5257.jpg)
+![La Sagrada Familia](/wp-content/uploads/2011/10/IMG_5257.jpg)
 
 When you visit a new city, one of the oft mentioned locations to visit
 mentioned by friends, churches. Many are beautiful, some are grand,

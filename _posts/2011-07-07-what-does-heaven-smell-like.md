@@ -16,7 +16,7 @@ tags: [travel, tuscany, italy, heaven, spiritual]
 comments: true
 ---
 
-![beautiful sunset sky](http://distillery.s3.amazonaws.com/media/2011/06/23/ceb898c891164c349b2e6b840e59c882_7.jpg)
+![beautiful sunset sky](/images/13402323774_cbe1f9a4a5_z.jpg)
 
 <small>Sunset just outside San Gimignano in Tuscany, Italy</small>
 
