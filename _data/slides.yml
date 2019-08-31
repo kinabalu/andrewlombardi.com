@@ -1,25 +1,9 @@
-- image: images/portfolio/temp/bulgarian-seductress.jpg
-  caption: elegant
-  position: bottom-left
-  width: 550
-  link: /travel/bulgaria.html
-  link_desc: Read More
-  desc:
-    <span class="size-2" >BULGARIAN SEDUCTRESS</span><br />
-    <span class="size-6">The movements as captured, ooze sensuality and grace.  Dancing to the rhythm of the old world.</span>
 - image: images/portfolio/temp/amsterdam-canal-boats.jpg
   caption: striped
   position: center
   width: 550
   desc:
     <span class="size-2" style="margin-bottom:0;">WELCOME</span><span class="size-6" >Travel and writings from Andrew Lombardi</span>
-- image: images/portfolio/temp/gezellyn-pool.jpg
-  caption: striped
-  position: top-right
-  width: 350
-  desc:
-    <span class="size-6" >RELAXING BY THE POOL</span><br /><br />
-    <span class="size-2">Gezellyn</span><br />
 - image: images/portfolio/temp/weathered-dutchman.jpg
   caption: elegant
   position: bottom-left
