@@ -4,7 +4,7 @@ module.exports = {
     title: `Andrew Lombardi`,
     author: `Andrew Lombardi`,
     description: `The personal blog of Andrew Lombardi`,
-    siteUrl: `https://andrewlombardi.netlify.com/`,
+    siteUrl: `https://andrewlombardi.com/`,
     social: {
       twitter: `kinabalu`,
     },
@@ -63,8 +63,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // edit below
-        // trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-254925-10`,
       },
     },
     {
