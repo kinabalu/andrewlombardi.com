@@ -11,6 +11,7 @@ import Image from "gatsby-image"
 import styled from "styled-components"
 
 import { rhythm } from "../utils/typography"
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 function Bio() {
   return (
@@ -36,8 +37,17 @@ function Bio() {
             <p>
               Written by <strong>{author}</strong> who lives and works in Orange County, CA.
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+              <a style={{ color: 'black', textDecoration: 'none', marginRight: rhythm(1 / 2)}} href={`https://facebook.com/${social.facebook}`}>
+                  <FaFacebook />
+              </a>
+              <a style={{ color: 'black', textDecoration: 'none', marginRight: rhythm(1 / 2)}} href={`https://twitter.com/${social.twitter}`}>
+                  <FaTwitter />
+              </a>
+              <a style={{ color: 'black', textDecoration: 'none', marginRight: rhythm(1 / 2)}} href={`https://instagram.com/${social.instagram}`}>
+                  <FaInstagram />
+              </a>
+              <a style={{ color: 'black', textDecoration: 'none', marginRight: rhythm(1 / 2)}} href={`https://linkedin.com/in/${social.linkedin}`}>
+                  <FaLinkedin />
               </a>
             </p>
           </Container>
@@ -61,6 +71,9 @@ const bioQuery = graphql`
         author
         social {
           twitter
+          facebook
+          linkedin
+          instagram
         }
       }
     }

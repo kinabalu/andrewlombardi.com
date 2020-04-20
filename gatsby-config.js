@@ -7,6 +7,9 @@ module.exports = {
     siteUrl: `https://andrewlombardi.com/`,
     social: {
       twitter: `kinabalu`,
+      facebook: `lombardiphoto`,
+      instagram: `kinabalu`,
+      linkedin: 'andrewlombardi'
     },
   },
   plugins: [
