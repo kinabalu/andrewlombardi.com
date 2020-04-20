@@ -57,8 +57,7 @@ started my morning. I'm tired, but nearly at my intended destination.
 Forgetting a bag, and losing most of the morning has not dissuaded me
 from my goal of photographing some flowers.
 
-[flickr
-size="medium"]http://www.flickr.com/photos/kinabalu/5621311463/[/flickr]
+<!-- http://www.flickr.com/photos/kinabalu/5621311463/ -->
 
 On the bus, venturing toward Keukenhof and it's literally standing room
 only up and down the aisles. My perspective about the day is shifting,
@@ -70,20 +69,12 @@ retro but I can't place the name. I'm quite sure she got some great
 shots with it, the photographer matters more than the camera and gear in
 most instances.
 
-[flickr size="small"
-float="left"]http://www.flickr.com/photos/kinabalu/5621906804/[/flickr]
+<!-- 
+http://www.flickr.com/photos/kinabalu/5621906804/
+http://www.flickr.com/photos/kinabalu/5621904370/
+http://www.flickr.com/photos/kinabalu/5621317665/ 
+-->
 
-[flickr size="small"
-float="left"]http://www.flickr.com/photos/kinabalu/5621904370/[/flickr]
-
-[flickr size="small"
-float="left"]http://www.flickr.com/photos/kinabalu/5621317665/[/flickr]
-
-<div style="clear: both;">
- 
-
-</div>
-</p>
 I was happily moving through and taking pictures as you can see from
 above, using a macro lens and getting some interesting exposures.
 Something wasn't clicking though, and I was becoming increasingly
@@ -92,8 +83,7 @@ thought were substandard photos. It didn't help that I was also getting
 quite bored of taking flower shot close ups. I decided to either leave,
 or change perspective.
 
-[flickr
-size="medium"]http://www.flickr.com/photos/kinabalu/5737739687/[/flickr]
+[Changing Perspective](https://live.staticflickr.com/3660/5737739687_6707e5e937_c.jpg)
 
 So I decided to change perspective. And much to my surprise, a whole new
 picture appeared in the viewfinder. If I changed my perspective enough,
@@ -101,20 +91,11 @@ the once boring and flat flower was shimmering in a beautiful blue sky
 background. At times the sun would kiss the edge of a petal and give a
 little surprise.
 
-[flickr size="small"
-float="left"]http://www.flickr.com/photos/kinabalu/5621305443/[/flickr]
-
-[flickr size="small"
-float="left"]http://www.flickr.com/photos/kinabalu/5621893208/[/flickr]
-
-[flickr size="small"
-float="left"]http://www.flickr.com/photos/kinabalu/5621900382/[/flickr]
-
-<div style="clear: both;">
- 
-
-</div>
-</p>
+<!-- 
+http://www.flickr.com/photos/kinabalu/5621305443/[/flickr]
+http://www.flickr.com/photos/kinabalu/5621893208/[/flickr]
+http://www.flickr.com/photos/kinabalu/5621900382/[/flickr] 
+-->
 
 I'm pretty happy with the results. And all it took was to get down to
 the level of my subject. And it definitely gave the Dutch and other
