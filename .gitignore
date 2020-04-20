@@ -1,4 +1,6 @@
 _site
 .sass-cache
+.cache
 .DS_Store
 .env
+node_modules
