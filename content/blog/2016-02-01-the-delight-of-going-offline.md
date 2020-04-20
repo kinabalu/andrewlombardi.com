@@ -2,7 +2,8 @@
 layout: post
 status: publish
 published: true
-title: The Delight of Going Offline
+title: The Delight of Going Offline 
+description: The delight of going offline
 author:
   display_name: Andrew Lombardi
   email: andrew@andrew-lombardi.com
