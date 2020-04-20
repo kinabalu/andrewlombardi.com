@@ -1,3 +1,38 @@
+<div class="container">
+
+    <a href="/index.html" title="Andrew Lombardi Photography &amp; Writings">
+        <figure class="image is-square">
+        <img src="/images/logo.png" alt="Andrew Lombardi Photography &amp; Writings">
+        </figure>
+    </a>
+
+    <aside class="menu">
+
+        {% for item in site.data.nav %}
+        {% if item.section_id == page.section_id %}
+            {% assign active_class = "current-menu-item current_page_item" %}
+        {% else %}
+            {% assign active_class = "" %}
+        {% endif %}
+            <p class="menu-label {{active_class}}">
+                <a href="{{ item.path }}">{{ item.name }}</a>
+            </p>
+        {% endfor %}
+
+        <div class="box">
+            <p class="menu-label">Who Am I</p>
+            <p>
+                Ciao! I'm Andrew Lombardi, an entrepreneur, photographer, author, and I speak worldwide about technology.
+            </p>
+        </div>
+<!--        <ul class="menu-list">-->
+<!--            <li><a>Dashboard</a></li>-->
+<!--            <li><a>Customers</a></li>-->
+<!--        </ul>-->
+
+    </aside>
+</div>
+<!--
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -7,22 +42,18 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<!-- Header -->
 <div id="header-wrapper">
 
   <div id="header-inner">
     <header>
-      <!-- Logo -->
       <div id="logo">
         <a href="/index.html" title="Andrew Lombardi Photography &amp; Writings">
           <img src="/images/logo.png" alt="Andrew Lombardi Photography &amp; Writings">
         </a>
       </div>
 
-      <!-- Mobile Menu Toggle -->
       <div class="mobile-menu-toggle"><a href=""></a></div>
 
-      <!-- Navigation -->
       <nav id="primary-nav">
         <div class="menu-container">
           <ul id="menu-1" class="menu">
@@ -78,4 +109,4 @@
 
   <div style="clear:both;"></div>
 </div>
-<!-- Header End -->
+ Header End -->

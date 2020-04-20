@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html>
 
   {% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %}
+    <div class="columns">
+        <div class="column is-one-fifth" style="margin-left: 1rem; margin-right: 1rem;">
+            {% include header.html %}
+        </div>
+        <div class="column">
+            <div class="container">
+                <!-- Content Area -->
+                {{ content }}
+            </div>
+        </div>
 
-    <!-- Content Area -->
-    {{ content }}
+    </div>
 
     {% include footer.html %}
-
 
 </body>
 </html>

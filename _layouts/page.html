@@ -2,12 +2,9 @@
 layout: default
 ---
 <div id="content-wrapper"{% if page.content_class %} class="{{ page.content_class }}"{% endif %}>
-  <section class="pages clearfix">
-    <!-- Section Title -->
-    <div id="section-title">
-      <h1>{{ page.section-title }}</h1>
-    </div>
-    <!-- Section Title End -->
+  <section>
+
+      <h1 class="title is-1">{{ page.section-title }}</h1>
 
       {{ content }}
 
