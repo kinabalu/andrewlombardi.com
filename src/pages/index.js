@@ -25,17 +25,17 @@ class IndexPage extends React.Component {
 
           Read my <Link to="https://medium.com/@kinabalu">latest articles on medium</Link>.
         </p>
-        <Link to="https://medium.com/@kinabalu">
+        <a href="https://medium.com/@kinabalu">
           <Button marginTop="35px">View Medium Articles</Button>
-        </Link>
+        </a>
         &nbsp;
         <Link to="/blog/">
           <Button>View Blog Archive</Button>
         </Link>
         &nbsp;
-        <Link to="https://mysticcoders.com">
+        <a href="https://mysticcoders.com">
           <Button>Visit Mystic</Button>
-        </Link>
+        </a>
       </Layout>
     )
   }
