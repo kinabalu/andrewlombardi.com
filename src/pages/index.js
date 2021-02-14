@@ -22,10 +22,15 @@ class IndexPage extends React.Component {
           </span>
         </h1>
         <p>
-          Will be working on more content imported from the website.
+
+          Read my <Link to="https://medium.com/@kinabalu">latest articles on medium</Link>.
         </p>
+        <Link to="https://medium.com/@kinabalu">
+          <Button marginTop="35px">View Medium Articles</Button>
+        </Link>
+        &nbsp;
         <Link to="/blog/">
-          <Button marginTop="35px">View Blog</Button>
+          <Button>View Blog Archive</Button>
         </Link>
         &nbsp;
         <Link to="https://mysticcoders.com">
