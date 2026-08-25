@@ -1,0 +1,22 @@
+# Dependabot configuration for andrewlombardi.com.
+#
+# This repository is a dependency-free static HTML site deployed by Netlify.
+# There is no Gemfile, package.json, or any other package manifest on the
+# default branch, so GitHub Actions is the only ecosystem Dependabot can
+# usefully track here. Enabling version-updates below also keeps security
+# updates flowing for that ecosystem.
+#
+# If a package manifest is ever added back to this repository, add a matching
+# entry here (for example package-ecosystem: "bundler" or "npm") so that both
+# version updates and security updates are raised as pull requests.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "chore"
+    labels:
+      - "dependencies"
