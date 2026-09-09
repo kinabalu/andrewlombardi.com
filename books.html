@@ -25,71 +25,87 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
     <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/journal.css">
 </head>
 <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
-    <nav aria-label="Main navigation">
-        <a href="/" class="logo">Andrew Lombardi</a>
-        <div class="nav-links">
-            <a href="/about">About</a>
-            <a href="/speaking">Speaking</a>
-            <a href="/books" aria-current="page">Books</a>
+    <div id="al-journal">
+        <div class="al-wrap">
+            <nav class="al-nav" aria-label="Main navigation">
+                <a class="al-name" href="/">andrew lombardi<span class="al-dot">.</span></a>
+                <div class="al-links">
+                    <a href="/about">About</a>
+                    <a href="/#al-speaking">Speaking</a>
+                    <a href="/books" aria-current="page">Books</a>
+                </div>
+            </nav>
         </div>
-    </nav>
-
-    <main id="main-content" tabindex="-1">
-
-    <div class="page-header">
-        <div class="label">Books</div>
-        <h1>Technical writing</h1>
-        <p class="subtitle">Practical guides for developers. Real-world examples, honest about tradeoffs.</p>
+        <main id="main-content" tabindex="-1">
+            <div class="al-wrap">
+                <header class="al-hero">
+                    <div class="al-kicker al-label"><span>From my bookshelf</span><span>Four books / Working knowledge</span></div>
+                    <h1>Written to<br>be <em>used.</em></h1>
+                    <div class="al-intro-row">
+                        <p class="al-intro">Practical guides for developers. Real-world examples, honest about tradeoffs, and focused on getting you productive quickly.</p>
+                        <p class="al-note">The books I wished existed<br>when I was learning.</p>
+                    </div>
+                </header>
+                <div class="al-library">
+                    <article class="al-book-entry">
+                        <a class="al-book-art" href="https://a.co/d/57sRlgC" aria-label="View Beginning Spring AI on Amazon">
+                            <img src="/images/beginning-spring-ai.jpg" alt="Beginning Spring AI book cover" width="200" height="270">
+                        </a>
+                        <div class="al-book-meta al-label"><span>Vol. 01</span><span>Apress / 2024</span></div>
+                        <h2>Beginning Spring AI</h2>
+                        <p>Build AI-powered applications using the Spring ecosystem. For Java developers who want to integrate LLMs into production applications without the hype.</p>
+                        <a class="al-book-buy" href="https://a.co/d/57sRlgC">View on Amazon <span aria-hidden="true">↗</span></a>
+                    </article>
+                    <article class="al-book-entry">
+                        <a class="al-book-art" href="https://a.co/d/hWGOdW3" aria-label="View Beginning Spring 6 on Amazon">
+                            <img src="/images/beginning-spring-6.jpg" alt="Beginning Spring 6 book cover" width="200" height="270">
+                        </a>
+                        <div class="al-book-meta al-label"><span>Vol. 02</span><span>Apress / 2023</span></div>
+                        <h2>Beginning Spring 6</h2>
+                        <p>A practical guide to learning and building with Spring 6.</p>
+                        <a class="al-book-buy" href="https://a.co/d/hWGOdW3">View on Amazon <span aria-hidden="true">↗</span></a>
+                    </article>
+                    <article class="al-book-entry">
+                        <a class="al-book-art" href="https://a.co/d/iXcCv7F" aria-label="View Beginning Spring 5 on Amazon">
+                            <img src="/images/beginning-spring-5.jpg" alt="Beginning Spring 5 book cover" width="200" height="270">
+                        </a>
+                        <div class="al-book-meta al-label"><span>Vol. 03</span><span>Apress / 2019</span></div>
+                        <h2>Beginning Spring 5</h2>
+                        <p>A guide to getting started with the Spring 5 framework.</p>
+                        <a class="al-book-buy" href="https://a.co/d/iXcCv7F">View on Amazon <span aria-hidden="true">↗</span></a>
+                    </article>
+                    <article class="al-book-entry">
+                        <a class="al-book-art" href="https://a.co/d/1QMDvBI" aria-label="View WebSocket on Amazon">
+                            <img src="/images/websocket.jpg" alt="WebSocket book cover" width="200" height="270">
+                        </a>
+                        <div class="al-book-meta al-label"><span>Vol. 04</span><span>O’Reilly Media / 2015</span></div>
+                        <h2>WebSocket</h2>
+                        <p>Explore WebSockets and real-time communication for the web.</p>
+                        <a class="al-book-buy" href="https://a.co/d/1QMDvBI">View on Amazon <span aria-hidden="true">↗</span></a>
+                    </article>
+                </div>
+            </div>
+            <section class="al-paper al-author-note" aria-labelledby="author-note-title">
+                <div class="al-paper-top al-label"><span>A note from the author</span><span>Learn it. Build it. Pass it on.</span></div>
+                <div class="al-paper-grid">
+                    <h2 id="author-note-title">Working knowledge.<br>Shared generously.</h2>
+                    <div>
+                        <p class="al-paper-copy">I write the books I wished existed when I was learning—full of real-world examples, honest about the tradeoffs, and focused on getting you productive quickly. The Spring books are co-authored with <a href="https://enigmastation.com/">Joseph Ottinger</a>.</p>
+                        <a class="al-read" href="https://thelongcompile.com">For the ideas beyond the books: The Long Compile ↗</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <div class="al-wrap">
+            <footer class="al-footer">
+                <span>Andrew Lombardi <span class="al-dot">/</span> A work in progress, always.</span>
+                <div><a href="https://github.com/kinabalu">GitHub ↗</a><a href="https://linkedin.com/in/andrewlombardi">LinkedIn ↗</a></div>
+            </footer>
+        </div>
     </div>
-
-    <div class="page-content">
-        <div class="books-grid">
-            <div class="book-card">
-                <img src="/images/beginning-spring-ai.jpg" alt="Beginning Spring AI book cover" class="book-cover">
-                <h3>Beginning Spring AI</h3>
-                <p class="publisher">Apress, 2024</p>
-                <a href="https://a.co/d/57sRlgC">View on Amazon →</a>
-            </div>
-            <div class="book-card">
-                <img src="/images/beginning-spring-6.jpg" alt="Beginning Spring 6 book cover" class="book-cover">
-                <h3>Beginning Spring 6</h3>
-                <p class="publisher">Apress, 2023</p>
-                <a href="https://a.co/d/hWGOdW3">View on Amazon →</a>
-            </div>
-            <div class="book-card">
-                <img src="/images/beginning-spring-5.jpg" alt="Beginning Spring 5 book cover" class="book-cover">
-                <h3>Beginning Spring 5</h3>
-                <p class="publisher">Apress, 2019</p>
-                <a href="https://a.co/d/iXcCv7F">View on Amazon →</a>
-            </div>
-            <div class="book-card">
-                <img src="/images/websocket.jpg" alt="WebSocket book cover" class="book-cover">
-                <h3>WebSocket</h3>
-                <p class="publisher">O'Reilly Media, 2015</p>
-                <a href="https://a.co/d/1QMDvBI">View on Amazon →</a>
-            </div>
-        </div>
-
-        <h2>About the books</h2>
-        <p>
-            I write the books I wished existed when I was learning—full of real-world examples, honest about the tradeoffs, and focused on getting you productive quickly. The Spring books are co-authored with <a href="https://enigmastation.com/">Joseph Ottinger</a>.
-        </p>
-        <p>
-            <strong>Beginning Spring AI</strong> is the most recent, covering how to build AI-powered applications using the Spring ecosystem. It's designed for Java developers who want to integrate LLMs into production applications without the hype.
-        </p>
-    </div>
-
-    </main>
-
-    <footer>
-        <div class="social-links">
-            <a href="https://twitter.com/kinabalu">Twitter</a>
-            <a href="https://linkedin.com/in/andrewlombardi">LinkedIn</a>
-            <a href="https://github.com/kinabalu">GitHub</a>
-        </div>
-    </footer>
 </body>
 </html>
