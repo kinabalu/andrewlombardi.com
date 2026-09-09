@@ -25,60 +25,69 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
     <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/journal.css">
 </head>
 <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
-    <nav aria-label="Main navigation">
-        <a href="/" class="logo">Andrew Lombardi</a>
-        <div class="nav-links">
-            <a href="/about" aria-current="page">About</a>
-            <a href="/speaking">Speaking</a>
-            <a href="/books">Books</a>
+    <div id="al-journal">
+        <div class="al-wrap">
+            <nav class="al-nav" aria-label="Main navigation">
+                <a class="al-name" href="/">andrew lombardi<span class="al-dot">.</span></a>
+                <div class="al-links">
+                    <a href="/about" aria-current="page">About</a>
+                    <a href="/#al-speaking">Speaking</a>
+                    <a href="/books">Books</a>
+                </div>
+            </nav>
         </div>
-    </nav>
-
-    <main id="main-content" tabindex="-1">
-
-    <div class="page-header">
-        <div class="label">About</div>
-        <h1>Builder, writer, perpetual student</h1>
-        <p class="subtitle">I've spent thirty years building software and learning that the hardest problems are almost never about code.</p>
-    </div>
-
-    <div class="page-content">
-        <p>
-            I run <a href="https://mysticcoders.com">Mystic Coders</a>, a technology consultancy that helps companies build software and navigate the ever-shifting landscape of AI, cloud, and web development. We've worked with everyone from startups to Fortune 500s.
-        </p>
-        <p>
-            I've written <a href="/books">books</a> on WebSockets and Spring. I've <a href="/speaking">spoken</a> at conferences around the world—Java2Days, ConFoo, ÜberConf, and dozens of others—about everything from real-time systems to the philosophy of software craftsmanship.
-        </p>
-        <p>
-            I also write <strong>The Long Compile</strong>, a weekly newsletter exploring the questions that don't fit in a technical blog post: What happens when AI hallucinates confidently? What did Gaudi understand about patience that we've forgotten? Why do the best engineers I know read philosophy?
-        </p>
-        <p>
-            When I'm not at a keyboard, I'm probably traveling somewhere new, watching the Lakers, or having conversations with my kids that end up becoming essays.
-        </p>
-
-        <h2>Get in touch</h2>
-        <p>
-            For newsletter conversations, reply to any issue of <a href="https://thelongcompile.com">The Long Compile</a>. I read every response.
-        </p>
-        <p>
-            For speaking: <a href="/speaking">see topics and booking</a>
-        </p>
-        <p>
-            For everything else: <a href="https://linkedin.com/in/andrewlombardi">LinkedIn</a> or <a href="https://twitter.com/kinabalu">Twitter</a>
-        </p>
-    </div>
-
-    </main>
-
-    <footer>
-        <div class="social-links">
-            <a href="https://twitter.com/kinabalu">Twitter</a>
-            <a href="https://linkedin.com/in/andrewlombardi">LinkedIn</a>
-            <a href="https://github.com/kinabalu">GitHub</a>
+        <main id="main-content" tabindex="-1">
+            <div class="al-wrap">
+                <header class="al-hero">
+                    <div class="al-kicker al-label"><span>About / Andrew Lombardi</span><span>Builder / Writer / Perpetual student</span></div>
+                    <h1>Thirty years in.<br>Still <em>curious.</em></h1>
+                    <div class="al-intro-row">
+                        <p class="al-intro">I've spent thirty years building software and learning that the hardest problems are almost never about code.</p>
+                        <p class="al-note">A work in progress.<br>Always.</p>
+                    </div>
+                </header>
+                <section class="al-bio-section" aria-labelledby="building-title">
+                    <div class="al-bio-margin"><span class="al-label">01 / The work</span><h2 id="building-title">Building things.<br>Sharing what I learn.</h2></div>
+                    <div class="al-bio-copy">
+                        <p>I run <a href="https://mysticcoders.com">Mystic Coders</a>, a technology consultancy that helps companies build software and navigate the ever-shifting landscape of AI, cloud, and web development. We've worked with everyone from startups to Fortune 500s.</p>
+                        <p>I've written <a href="/books">books</a> on WebSockets and Spring. I've <a href="/#al-speaking">spoken</a> at conferences around the world—Java2Days, ConFoo, ÜberConf, and dozens of others—about everything from real-time systems to the philosophy of software craftsmanship.</p>
+                    </div>
+                </section>
+            </div>
+            <section class="al-paper" aria-labelledby="questions-title">
+                <div class="al-paper-top al-label"><span>02 / Beyond the technical</span><span>The Long Compile</span></div>
+                <div class="al-paper-grid">
+                    <h2 id="questions-title">Some questions<br>need more room.</h2>
+                    <div>
+                        <p class="al-paper-copy">I also write <strong>The Long Compile</strong>, a weekly newsletter exploring the questions that don't fit in a technical blog post: What happens when AI hallucinates confidently? What did Gaudi understand about patience that we've forgotten? Why do the best engineers I know read philosophy?</p>
+                        <a class="al-read" href="https://thelongcompile.com">Explore The Long Compile ↗</a>
+                    </div>
+                </div>
+            </section>
+            <div class="al-wrap">
+                <section class="al-bio-section" aria-labelledby="life-title">
+                    <div class="al-bio-margin"><span class="al-label">03 / Away from the keyboard</span><h2 id="life-title">Life makes<br>its way in.</h2></div>
+                    <div class="al-bio-copy"><p>When I'm not at a keyboard, I'm probably traveling somewhere new, watching the Lakers, or having conversations with my kids that end up becoming essays.</p></div>
+                </section>
+                <section class="al-about-contact" aria-labelledby="contact-title">
+                    <div class="al-section-head"><span class="al-label">04 / Get in touch</span></div>
+                    <h2 id="contact-title">Let's start a conversation.</h2>
+                    <p class="al-contact-note">For newsletter conversations, reply to any issue of <a href="https://thelongcompile.com">The Long Compile</a>. I read every response.</p>
+                    <a class="al-row" href="/#al-speaking"><span class="al-number">01</span><div><h3>Bring me into the room.</h3><p>Speaking topics, workshops, and booking.</p></div><span class="al-arrow" aria-hidden="true">↗</span></a>
+                    <div class="al-contact-social"><span class="al-label">For everything else</span><a href="https://linkedin.com/in/andrewlombardi">LinkedIn ↗</a><a href="https://twitter.com/kinabalu">Twitter ↗</a></div>
+                </section>
+            </div>
+        </main>
+        <div class="al-wrap">
+            <footer class="al-footer">
+                <span>Andrew Lombardi <span class="al-dot">/</span> A work in progress, always.</span>
+                <div><a href="https://github.com/kinabalu">GitHub ↗</a><a href="https://linkedin.com/in/andrewlombardi">LinkedIn ↗</a></div>
+            </footer>
         </div>
-    </footer>
+    </div>
 </body>
 </html>
