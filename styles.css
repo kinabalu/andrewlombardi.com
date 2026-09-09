@@ -195,7 +195,7 @@ nav {
     gap: 0.5rem;
     padding: 1rem 2rem;
     background: var(--gradient-1);
-    color: white;
+    color: var(--bg);
     text-decoration: none;
     border-radius: 8px;
     font-size: 1rem;
@@ -517,5 +517,68 @@ img.book-cover {
         flex-direction: column;
         gap: 1.5rem;
         text-align: center;
+    }
+}
+
+/* Keyboard navigation and motion preferences */
+.skip-link {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 10;
+    padding: 0.75rem 1rem;
+    background: var(--text);
+    color: var(--bg);
+    border-radius: 4px;
+    transform: translateY(calc(-100% - 2rem));
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+}
+
+a:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 5px;
+}
+
+.nav-links a[aria-current="page"] {
+    color: var(--text);
+    text-decoration: underline;
+    text-underline-offset: 0.35em;
+}
+
+.card:focus-visible .card-arrow {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        column-gap: 1.5rem;
+    }
+
+    .nav-links a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+    }
+
+    .newsletter-card {
+        padding: 2rem 1.5rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        transition: none !important;
+        animation: none !important;
     }
 }
